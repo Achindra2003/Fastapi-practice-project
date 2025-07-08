@@ -10,7 +10,7 @@ if (!PUBLISHABLE_KEY) {
 export default function ClerkProviderWithRoutes({children}){
     console.log("THE KEY BEING PASSED TO CLERK IS:", PUBLISHABLE_KEY);
     return (
-        <ClerkProvider publishableKey="{PUBLISHABLE_KEY}">
+        <ClerkProvider publishableKey={PUBLISHABLE_KEY}>
             <BrowserRouter>{children}</BrowserRouter>
         </ClerkProvider>
     );

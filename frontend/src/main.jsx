@@ -6,8 +6,6 @@ import ClerkProviderWithRoutes from './auth/ClerkProviderWithRoutes.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ClerkProviderWithRoutes>
       <App />
-    </ClerkProviderWithRoutes>
   </React.StrictMode>,
 )
